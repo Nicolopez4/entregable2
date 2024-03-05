@@ -56,6 +56,8 @@ header nav ul {
     align-items: center; 
 }
 
+
+
 header a {
     padding-right: 20px;
     color: white;
@@ -183,19 +185,90 @@ header a {
 
 
 
+/* PAGINAS NOSOTROS */
+
+/* SECTION NOSOTROS IMAGEN */
+
+.nuestro-personal {
+    display: flex;
+    justify-content: center;
+    
+    padding-top: 25px;
+    color: white;
+}
+
+
+.tarjetas-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    flex-wrap: wrap;
+     
+  }
+  
+  .tarjeta {
+    width: calc(25% - 20px); 
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    background-color: white;
+  }
+  
+  .tarjeta img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .tarjeta h2 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .tarjeta p {
+    margin-top: 5px;
+    font-size: 14px;
+  }
 
 
 
 
 
+/* PAGINAS SERVICIOS */
+
+/* SECTION SERVICIOS */
 
 
 
 
+.servicios-container {
+    
+    margin: 25px 25px 25px 25px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
 
 
+.servicios-container .row {
+    margin: 25px;
+    
+}
 
+.titulo-servicios {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    margin-top: 5px;
+    
+}
 
+.btn-primary {
+    background-color: red;
+    border: #2C2D2E;
+
+}
 
 
 
