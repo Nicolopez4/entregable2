@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS PAGINA WEB-->
+    <link rel="stylesheet" href="../style/style.css">
+    
+     <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+
+    <!-- TITLE DOCUMENT-->
+    <title>CONTACTANOS</title>
+</head>
+
+<body>
+
+    <!-- HEADER  -->
+    <header>
+        
+        <section>
+        <!-- Logo taller -->
+        <img id="logotaller" src="../images/servinyeccion-logo.png"  alt="Logo servinyeccion taller automotriz tulua">
+        </section>
+         <!-- Zona navegable del header -->
+        <nav>
+            <ul> 
+                <li>
+                    <a class="navegable1" href="../index.html"> Inicio </a>
+                </li>
+                <li>
+                    <a class="navegable1" href="../Pages/nosotros.html"> Nosotros </a>
+                </li>
+                <li>
+                    <a class="navegable1" href="../Pages/servicios.html"> Servicios </a>
+                </li>
+                <li>
+                    <a class="navegable1" href="../Pages/comunidad.html"> Comunidad </a>
+                </li>
+                <li>
+                    <a class="navegable1" href="../Pages/contactanos.html"> Contactanos </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Titulo principal  -->
+        <h1 class="tituloprincipal"> CONTACTANOS  </h1>
+
+    </header>
+
+
+    <!-- Formulario contacto -->
+
+    <section>
+        <h2 class="titulosecundario"> Dejanos tu información y te escribiremos </h2>
+
+        <form action="form.php" method="post">
+            <label for="Nombre y apellido"> Nombre y apellido* </label>
+            <input type="text" name="nombre" id="nombre" placeholder="Tu nombre">
+
+        <div>
+            <label for="Telefono"> Telefono* </label>
+            <input type="text" name="nombre" id="nombre" placeholder="celular">
+        </div>
+
+        <div>
+            <label for="vehiculo"> Vehiculo* </label>
+            <input type="text" name="nombre" id="nombre" placeholder="marca y referencia">
+        </div>
+
+        <div>
+            <label for="Modelo"> Modelo* </label>
+            <input type="text" name="nombre" id="nombre" placeholder="año">
+        </div>
+
+        <div>
+            <label for="Numero de parte"> Numero de parte </label>
+            <input type="text" name="nombre" id="nombre" placeholder="vehiculo">
+        </div>
+
+        <div>
+            <h3>Indicanos tu necesidad a cotizar</h3>
+            <label for="servicio"> Cotizar servicio </label>
+            <input type="radio" name="servicio " id="servicio">
+            <label for="repuesto"> Cotizar repuesto </label>
+            <input type="radio" name="repuesto " id="repuesto">
+            <label for="ambos"> Cotizar ambos </label>
+            <input type="radio" name="ambos " id="ambos">
+        </div>
+
+        <div>
+            <h3>
+                Describe el servicio o repuesto a cotizar 
+            </h3>
+            <textarea name="requerimientos" id="" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+            <h5> ¿Quieres recibir nuestras novedades?
+                SI<input type="checkbox" name="si" id="" value=""> 
+                NO <input type="checkbox" name="no" id="" value="">
+            </h5>
+        
+
+
+
+        <div>
+            <input type="submit" value="ENVIAR">
+            <input type="reset" value="BORRAR">
+        </div>
+
+
+
+
+
+        </form>
+
+    </section>
+
+    <footer>
+        
+        <h5>
+            Redes sociales
+        </h5>
+
+        <section id="redes">
+            <!-- enlaces absolutos -->
+            <a  href="https://www.instagram.com/" target="_blank"><img src="../images/instagram.png" alt="instagram"></a>
+
+            <a  href="https://www.tiktok.com" target="_blank"><img src="../images/tiktok.png" alt="tiktok"></a>
+
+            <a href="https://web.whatsapp.com/" target="_blank"><img src="../images/whatsapp.png" alt="whatsapp"></a>
+
+            <a href="https://www.facebook.com/" target="_blank"><img src="../images/facebook.png" alt="facebook"></a>
+
+        </section>
+
+
+
+
+    </footer>
+
+
+
+    <br>
+    <br>
+    
+</body>
