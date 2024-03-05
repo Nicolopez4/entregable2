@@ -272,6 +272,63 @@ header a {
 
 
 
+/* PAGINA COMUNIDAD */
+
+/* SECTION ENTRA A NUESTRA COMUNIDAD */
+
+.comunidad-container {
+    background-color: white;
+    padding: 15px;
+    
+}
+
+.comunidad-container h1 {
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.comunidad-container iframe {
+    display: flex;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+/* PAGINA CONTACTO */
+
+/*  SECTION FORMULARIO */
+
+
+.form-container {
+
+    background-color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+
+.form-container form {
+    margin: 25px;
+}
+
+.form-container div {
+    margin: 8px;
+}
+
+
+
 
 
 
