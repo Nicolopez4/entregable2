@@ -5,6 +5,9 @@
     padding: 0;
 }
 
+body {
+    background-color: #2C2D2E;
+}
 
 /* Diseño responsive  - DESKTOP*/
 
@@ -12,6 +15,10 @@
 
 
 @media only screen and (min-width: 961px) { 
+
+    body {
+        background-color: #2C2D2E;
+    }
 
 
 /* ENCABEZADO HEADER */
@@ -21,13 +28,6 @@
     padding-left: 25px;
 }
 
-#imagen-taller {
-    padding: 20px;
-}
-
-body {
-    background-color: #2C2D2E;
-}
 
 header {
     
@@ -42,17 +42,18 @@ header {
     justify-content: space-between;
     border-bottom: 1px solid red;
     padding: 10px;
-    
-
-    
-
+    z-index: 1000;
 
 }
+
+
 
 
 header nav ul {
     list-style-type: none;
     display: flex;
+    justify-content: center;   
+    align-items: center; 
 }
 
 header a {
@@ -62,38 +63,38 @@ header a {
     text-decoration: none;
     margin: 10px;
     font-weight: 550;
-
+    align-items: center;
+   
 }
 
 
-/* BOOSTRAP DE IMAGENES  */
+
+/* SECTION BOOSTRAP DE IMAGENES  */
 
 
 
 
 
-/* QUIENES SOMOS  */
+/* SECTION - Quienes somos  */
 
 
 
-.quienessomos { 
+.quienes-container { 
     background-color: white;
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     
-    
-    
 }
 
-.textoquienes {
+.quienes {
     margin-right: ;
     text-align: center;
     
 }
 
-.titulosecundario {
+.quienes h2 {
     color: brown;
     font-size: 25px;
     margin: 25px;
@@ -102,7 +103,7 @@ header a {
 
 }
 
-.parrafo1 {
+.quienes p {
     color: dimgray;
     font-family: 'Nunito', sans-serif;
     margin: 25px;
@@ -120,10 +121,10 @@ header a {
 
 
 
-/* Donde estamos ubicados  */
+/* SECTION - UBICACION  */
 
 .ubicacion {
-    
+    background-color: #2C2D2E;
     display: flex;
     align-items: center;
     justify-content: center;
