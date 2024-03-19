@@ -1,0 +1,78 @@
+header {
+    position: sticky;
+    top: 0;
+    background-color:#2C2D2E ;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid red;
+    padding: 10px;
+    z-index: 1000;
+
+    margin-bottom: 2px;
+
+    @include tablet {
+    }
+
+    @include mobile {
+        flex-direction: column;
+        
+    }
+
+
+    
+    #logotaller {
+        width: 20%;
+        padding-left: 25px;
+
+        @include mobile {
+            width: 50%;
+        }
+
+
+    }
+
+    #logotaller2 {
+        width: 65%;
+        padding-left: 25px;
+
+        @include mobile {
+            width: 50%;
+           
+        }
+
+
+    }
+
+    nav {
+        ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+
+            @include tablet {
+                margin: 10px;
+            }
+
+            @include mobile {
+                flex-direction: column;
+                margin: 10px;
+            }
+
+            a {
+                padding-right: 20px;
+                color: white;
+                font-family: 'Nunito', sans-serif;
+                text-decoration: none;
+                margin: 10px;
+                font-weight: 550;
+                align-items: center;
+            }
+        }
+    }
+}
+
+

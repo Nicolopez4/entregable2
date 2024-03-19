@@ -1,0 +1,49 @@
+main {
+
+
+    .quienes-container {
+
+        background-color: white;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @include tablet {
+            flex-direction: column;
+        }
+
+        @include mobile {
+            flex-direction: column;
+        }
+
+        .quienes {
+            text-align: center;
+            
+
+            h2 {
+                color: brown;
+                font-size: 25px;
+                margin: 25px;
+            }
+            
+            p {
+                color: dimgray;
+                font-family: 'Nunito', sans-serif;
+                margin: 25px;
+
+
+            }
+        }
+
+        .videotaller{
+            iframe {
+                display: flex;
+                padding: 5;
+                margin-left: 30px; 
+                
+            }
+        }
+
+    }
+}

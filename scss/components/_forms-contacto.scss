@@ -1,0 +1,38 @@
+
+
+
+.form-container {
+
+    background-color: white;
+    text-align: center;
+    padding: 25px;
+
+    h2 {
+        color: red;
+
+    }
+
+    form {
+        margin: 25px;
+
+        div {
+            margin: 8px; 
+        }
+
+        .botones {
+
+            .boton1 {
+                background-color: red;
+                padding: 10px;
+                border: 0;
+                color: white;
+            }
+
+            .boton2 {
+                @extend .boton1;
+                font-weight: bold;
+                color: beige;
+            }
+        }
+    }
+}

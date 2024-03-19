@@ -1,0 +1,46 @@
+.ubicacion {
+
+    background-color: #2C2D2E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+
+    @include tablet {
+        flex-direction: column;
+    }
+
+    @include mobile {
+        flex-direction: column;
+    }
+
+    .mapa {
+
+        @include mobile {
+            margin-top: 60px; 
+            
+        }
+        
+
+        iframe {
+            margin-right: 20px;
+
+        }
+
+    }
+
+    .tituloubicacion {
+        
+        align-items: center;
+
+       
+        
+    
+        h3 {
+            color: rgb(255, 255, 255);
+            font-size: 25px;
+            margin: 25px;
+        }
+
+    }
+}

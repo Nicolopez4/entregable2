@@ -1,0 +1,23 @@
+@import 'media-queries';
+@import 'base/reset';
+
+
+//layout 
+@import 'layout/header';
+@import 'layout/section-quienes';
+@import 'layout/section-ubicacion';
+@import 'layout/section-redes';
+@import 'layout/section-comunidad';// pagina comunidad 
+
+//components 
+@import 'components/cards-personal'; //PERSONAL DEL TALLER
+@import 'components/cards-servicios'; // SERVICIOS OFRECIDOS
+@import 'components/forms-contacto';// pagina contactanos 
+@import 'components/carrousel'; //carrousel 
+
+
+
+
+
+
+

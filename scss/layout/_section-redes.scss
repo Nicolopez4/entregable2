@@ -1,0 +1,43 @@
+footer {
+    .redes {
+        background-color: red;
+        height: 120px;
+        padding: 2px;
+        
+        .textoredes {
+            margin: 25px;
+            align-items: center;
+
+            h5 {
+                color: white;
+                font-size: 25px;
+                text-align: center;
+            }
+        }
+
+        .redeslogos {
+            text-align: center;
+            a {
+                margin: 30px;
+                transform: scale(50px);
+            }
+        }
+
+    }
+
+    .icono-wpp {
+        
+        position: fixed;
+        right: 25px;
+        bottom: 25px;
+
+
+        transition: 1s;
+        &:hover {
+            transform: rotate(360deg);
+        }
+    }
+
+
+
+}

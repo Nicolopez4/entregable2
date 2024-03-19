@@ -1,0 +1,24 @@
+//pagina 4 comunidad
+
+.comunidad-container {
+    background-color: white;
+    padding: 15px;
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        color: black;
+
+    }
+
+    div {
+        display: flex;
+        justify-content: center;
+
+        iframe {
+            display: flex;
+            margin: 20px;
+
+        }
+    }
+}

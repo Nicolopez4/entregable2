@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2C2D2E;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: #2C2D2E;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid red;
+  padding: 10px;
+  z-index: 1000;
+  margin-bottom: 2px;
+}
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  header {
+    flex-direction: column;
+  }
+}
+header #logotaller {
+  width: 20%;
+  padding-left: 25px;
+}
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  header #logotaller {
+    width: 50%;
+  }
+}
+header #logotaller2 {
+  width: 65%;
+  padding-left: 25px;
+}
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  header #logotaller2 {
+    width: 50%;
+  }
+}
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+@media only screen and (min-width: 501px) and (max-width: 960px) {
+  header nav ul {
+    margin: 10px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  header nav ul {
+    flex-direction: column;
+    margin: 10px;
+  }
+}
+header nav ul a {
+  padding-right: 20px;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: 550;
+  align-items: center;
+}
+
+main .quienes-container {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (min-width: 501px) and (max-width: 960px) {
+  main .quienes-container {
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  main .quienes-container {
+    flex-direction: column;
+  }
+}
+main .quienes-container .quienes {
+  text-align: center;
+}
+main .quienes-container .quienes h2 {
+  color: brown;
+  font-size: 25px;
+  margin: 25px;
+}
+main .quienes-container .quienes p {
+  color: dimgray;
+  font-family: "Nunito", sans-serif;
+  margin: 25px;
+}
+main .quienes-container .videotaller iframe {
+  display: flex;
+  padding: 5;
+  margin-left: 30px;
+}
+
+.ubicacion {
+  background-color: #2C2D2E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+@media only screen and (min-width: 501px) and (max-width: 960px) {
+  .ubicacion {
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  .ubicacion {
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  .ubicacion .mapa {
+    margin-top: 60px;
+  }
+}
+.ubicacion .mapa iframe {
+  margin-right: 20px;
+}
+.ubicacion .tituloubicacion {
+  align-items: center;
+}
+.ubicacion .tituloubicacion h3 {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  margin: 25px;
+}
+
+footer .redes {
+  background-color: red;
+  height: 120px;
+  padding: 2px;
+}
+footer .redes .textoredes {
+  margin: 25px;
+  align-items: center;
+}
+footer .redes .textoredes h5 {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+footer .redes .redeslogos {
+  text-align: center;
+}
+footer .redes .redeslogos a {
+  margin: 30px;
+  transform: scale(50px);
+}
+footer .icono-wpp {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  transition: 1s;
+}
+footer .icono-wpp:hover {
+  transform: rotate(360deg);
+}
+
+.comunidad-container {
+  background-color: white;
+  padding: 15px;
+}
+.comunidad-container h1 {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+.comunidad-container div {
+  display: flex;
+  justify-content: center;
+}
+.comunidad-container div iframe {
+  display: flex;
+  margin: 20px;
+}
+
+main .section-personal h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  color: white;
+}
+main .section-personal .tarjetas-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+@media only screen and (min-width: 501px) and (max-width: 960px) {
+  main .section-personal .tarjetas-container {
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  main .section-personal .tarjetas-container {
+    flex-direction: column;
+  }
+}
+main .section-personal .tarjetas-container div {
+  width: calc(25% - 20px);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+  background-color: white;
+}
+@media only screen and (min-width: 501px) and (max-width: 960px) {
+  main .section-personal .tarjetas-container div {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  main .section-personal .tarjetas-container div {
+    width: 80%;
+  }
+}
+main .section-personal .tarjetas-container div img {
+  width: 100%;
+  border-radius: 5px;
+}
+main .section-personal .tarjetas-container div h2 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+main .section-personal .tarjetas-container div p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.servicios-container {
+  margin: 25px 25px 25px 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.servicios-container .titulo-servicios {
+  display: flex;
+  justify-content: center;
+}
+.servicios-container .titulo-servicios h1 {
+  color: white;
+  font-size: 25px;
+  margin-top: 5px;
+}
+.servicios-container .row {
+  margin: 25px;
+}
+.servicios-container .row div div a {
+  background-color: red;
+  border: #2C2D2E;
+}
+
+.form-container {
+  background-color: white;
+  text-align: center;
+  padding: 25px;
+}
+.form-container h2 {
+  color: red;
+}
+.form-container form {
+  margin: 25px;
+}
+.form-container form div {
+  margin: 8px;
+}
+.form-container form .botones .boton1, .form-container form .botones .boton2 {
+  background-color: red;
+  padding: 10px;
+  border: 0;
+  color: white;
+}
+.form-container form .botones .boton2 {
+  font-weight: bold;
+  color: beige;
+}
+
+/*# sourceMappingURL=style.css.map */
